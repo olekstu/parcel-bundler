@@ -3,7 +3,7 @@ import InnerComponent from "./InnerComponent";
 
 const App = () => {
     useEffect(() => {
-        fetch("http:/localhost:1234/api/health", {
+        fetch("/api/health", {
             headers: {
                 'Content-Type': 'application/json'
             }
@@ -17,6 +17,7 @@ const App = () => {
     return (
         <>
             <div>Hello World 123</div>
+            <InnerComponent />
             <InnerComponent />
         </>
     )
