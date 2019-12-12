@@ -21,6 +21,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "assets": "^3.0.1",
     "express": "^4.17.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
@@ -29,7 +30,9 @@
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.5",
     "@babel/preset-react": "^7.7.4",
+    "autoprefixer": "^9.7.3",
     "cssnano": "^4.1.10",
-    "less": "^3.10.3"
+    "less": "^3.10.3",
+    "postcss-modules": "^1.4.1"
   }
 }
